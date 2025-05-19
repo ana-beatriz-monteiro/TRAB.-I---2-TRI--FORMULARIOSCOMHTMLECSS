@@ -25,5 +25,5 @@ body{
 }
 
 form input:not(input[type="radio"]){
-    width: 100%;
+    width: 1rem;
 }
