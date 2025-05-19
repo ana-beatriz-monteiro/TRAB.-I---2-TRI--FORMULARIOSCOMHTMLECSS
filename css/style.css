@@ -1,20 +1,23 @@
-body{
-    background-color: gray !important;
-    width:100%;
-    background-color: var(--background-color);
-    color:var(--text-color);
+:root{
+    --background-color: #212129b3;
+    --text-color: #ffffff90;
 }
 
 * {
     margin: 0;
     padding: 0;
 }
+body{
+    width:100%;
+    background-color: var(--background-color) !important;
+    color: var(--text-color);
+}
 
     header {
     top: 0;
     height: 60px;
     border-bottom: 2px solid var(--text-color);
-    position: absolute;
+    position: top;
     width: 100%;
     display: flex;
     justify-content: center;
