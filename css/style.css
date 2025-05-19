@@ -11,13 +11,12 @@
 body{
     background-color: var(--background-color) !important;
     color: var(--text-color);
-    display: flex;
-    flex-direction: column;
+    display: left;
     justify-content: left;
     align-items: left;
 }
 
-    header {
+header {
     top: 0;
     height: 60px;
     border-bottom: 2px solid var(--text-color);
@@ -27,6 +26,18 @@ body{
     justify-content: center;
     align-items: center;
 }
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid var(--text-color);
+    border-radius: 20px;
+    padding: 2rem;
+    width: 60%;
+}
+
 
 form input:not(input[type="radio"]){
     width: 100%;
