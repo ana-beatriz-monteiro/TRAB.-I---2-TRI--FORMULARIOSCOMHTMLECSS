@@ -13,9 +13,9 @@ body {
     height: 100vh;
     background-color: var(--background-color) !important;
     color: var(--text-color);
-    display: flex;
+    display: left;
     flex-direction: column;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
 }
 
