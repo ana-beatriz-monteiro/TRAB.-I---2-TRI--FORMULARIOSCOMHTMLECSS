@@ -67,3 +67,29 @@ input {
 input[type="submit"], input[type="reset"]{
     margin: 0.5rem;
 }
+body{
+    background-color: gray !important;
+    width:100%;
+    background-color: var(--background-color);
+    color:var(--text-color);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+    header {
+    top: 0;
+    height: 60px;
+    border-bottom: 2px solid var(--text-color);
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form input:not(input[type="radio"]){
+    width: 100%;
+}
