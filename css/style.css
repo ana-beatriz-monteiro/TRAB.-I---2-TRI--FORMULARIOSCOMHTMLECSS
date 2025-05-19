@@ -1,5 +1,8 @@
+:root {
+    --background-color: #212129b3;
+    --text-color: #ffffff90;
+}
 body{
-    background-color: gray !important;
     width:100%;
     background-color: var(--background-color);
     color:var(--text-color);
@@ -11,7 +14,7 @@ body{
 }
 
     header {
-    top: 0;
+    top: 1;
     height: 60px;
     border-bottom: 2px solid var(--text-color);
     position: absolute;
