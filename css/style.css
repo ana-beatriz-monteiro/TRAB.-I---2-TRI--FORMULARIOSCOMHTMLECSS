@@ -13,7 +13,7 @@ body {
     height: 100vh;
     background-color: var(--background-color) !important;
     color: var(--text-color);
-    display: left;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
