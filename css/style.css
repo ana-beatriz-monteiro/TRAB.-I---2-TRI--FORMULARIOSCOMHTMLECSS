@@ -4,8 +4,8 @@
 }
 body{
     width:100%;
-    background-color: var(--background-color);
-    color:var(--text-color);
+    background-color: var(--background-color) !important;
+    color: var(--text-color);
 }
 
 * {
