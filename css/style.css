@@ -25,9 +25,6 @@ body{
     flex-direction: column;
 }
 
-br{
-    height: 10px;
-}
 form input:not(input[type="radio"]){
     width: 50rem;
 }
