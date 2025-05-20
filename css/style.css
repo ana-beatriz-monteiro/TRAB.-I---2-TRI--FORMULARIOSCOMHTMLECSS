@@ -24,7 +24,6 @@ body{
     align-items: center;
 }
 
-
 form input:not(input[type="radio"]){
     width: 50rem;
 }
