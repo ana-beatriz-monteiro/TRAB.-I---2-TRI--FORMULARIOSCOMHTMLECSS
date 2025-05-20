@@ -29,3 +29,7 @@ form input:not(input[type="radio"]){
     width: 50rem;
 }
 
+form label{
+    margin-top: 1rem;
+}
+
