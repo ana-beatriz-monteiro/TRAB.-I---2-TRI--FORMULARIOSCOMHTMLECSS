@@ -27,6 +27,7 @@ body{
 
 form input:not(input[type="radio"]){
     width: 50rem;
+    color: var(--text-color);
 }
 
 form label{
